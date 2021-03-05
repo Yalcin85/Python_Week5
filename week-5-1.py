@@ -17,6 +17,6 @@ class Society:
         print(f"Your Society Name : {self.society_name}\nHouse Of Mem : {self.house_no_of_mem}\nFlat : {self.flat}\nİncome : {self.income}")
 
 
-per=Society()
+per = Society()
 per.allocate_flat()
 Society.show_data(per)
